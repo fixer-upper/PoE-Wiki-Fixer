@@ -1,0 +1,14 @@
+{
+"name":"PoE Wiki",
+"description":"Fixes the PoE Wiki",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://pathofexile.gamepedia.com/*","https://pathofexile.gamepedia.com/*"],
+      "js": ["myscript.js"]
+    }
+  ],
+"icons": { "128": "icon.png"}
+
+}
